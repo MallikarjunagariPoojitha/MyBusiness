@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            text-align: center;
+            margin-top:8%;
+            margin-left:30%;
+            background-color: lightyellow;
+            box-shadow: 1px 1px 7px black;
+        }
+        .main .main_content{
+            line-height: 60px;
+            margin:20px;
+            padding: 10px;
+            width:100%;
+            margin-left:-15px;
+        }
+        .main .main_content input{
+            width:80%;
+            line-height: 30px;
+        }
+        .main .btn{
+              margin-top:-30px;
+        }
+       .main .btn button{
+        color:white;
+        background-color:violet;
+        width:100px;
+        height:30px;
+        font-size: 20px;
+        border-radius: 10px;
+       }
+       .main .btn button:hover{
+        color:black;
+        background-color: orange;
+       }
+       .main .main_head h1{
+        padding: 10px;
+       }
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="main">
+            <div class="main_head">
+                <h1>Contact us</h1>
+            </div>
+            <div class="main_content">
+                <input type="text" placeholder="First Name" required><br>
+                <input type="text" placeholder="Last Name" required><br>
+                <input type="number" placeholder="whatsapp number" ><br>
+                <input type="email" placeholder="Email Id" required><br>
+                <textarea rows="6" cols="30" placeholder="Message"></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+   
+</body>
+</html>
